@@ -46,8 +46,4 @@ def get_student_by_id(student_id):  # noqa: E501
     :rtype: Student
     """
 
-    get = get_by_id(student_id)
-    if get:
-        return get_by_id(student_id)
-    else:
-        return "error"
+    return get_by_id(student_id)
