@@ -21,7 +21,6 @@ def add(student=None):
 
     doc_id = student_db.insert(student.to_dict())
     student.student_id = doc_id
-    print(student.to_dict())
     return student.student_id
 
 
