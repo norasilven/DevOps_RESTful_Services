@@ -102,7 +102,7 @@ components:
           type: string
         last_name:
           type: string
-        gradeRecords:
+        grade_records:
           type: array
           items:
             $ref: '#/components/schemas/GradeRecord'
@@ -110,7 +110,7 @@ components:
         student_id: 8
         last_name: Silven
         first_name: Nora
-        gradeRecords:
+        grade_records:
         - grade: 7.5
           subject_name: devops
         - grade: 6.9
